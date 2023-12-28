@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Cperpunk themed calculator </title>
+ <link rel="stylesheet" href="first.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<title>calculator</title>
+</head>
+<body>
+  <div class="container">
+ <div id="calculator">
+   <div id="result">
+     <div id="history">
+       <p id="history-value"></p>
+   </div>
+   <div id="output">
+     <p id="output-value"></p>
+   </div>
+ </div>
+   <div id="keyboard">
+     <button class="operator" id="clear"><span class="btn_content"><span class="btn_glitch">C</span></button>
+      <button class="operator" id="backspace"><span class="btn_content"><span class="btn_glitch">CE</span></span></button>
+      <button class="operator" id="%"><span class="btn_content"><span class="btn_glitch">%</span></span></button>
+      <button class="operator" id="/"><span class="btn_content"><span class="btn_glitch">&#247;</span></span></button>
+      <button class="number" id="7"><span class="btn_content"><span class="btn_glitch">7</span></span></button>
+      <button class="number" id="8"><span class="btn_content"><span class="btn_glitch">8</span></span></button>
+      <button class="number" id="9"><span class="btn_content"><span class="btn_glitch">9</span></span></button>
+      <button class="operator" id="*"><span class="btn_content"><span class="btn_glitch">&times;</span></span></button>
+      <button class="number" id="4"><span class="btn_content"><span class="btn_glitch">4</span></span></button>
+      <button class="number" id="5"><span class="btn_content"><span class="btn_glitch">5</span></span></button>
+      <button class="number" id="6"><span class="btn_content"><span class="btn_glitch">6</span></span></button>
+      <button class="operator" id="-"><span class="btn_content"><span class="btn_glitch">-</span></span></button>
+      <button class="number" id="1"><span class="btn_content"><span class="btn_glitch">1</span></span></button>
+      <button class="number" id="2"><span class="btn_content"><span class="btn_glitch">2</span></span></button>
+      <button class="number" id="3"><span class="btn_content"><span class="btn_glitch">3</span></span></button>
+      <button class="operator" id="+"><span class="btn_content"><span class="btn_glitch">+</span></span></button>
+      <button class="empty" id="empty"></button>
+      <button class="number" id="0"><span class="btn_content"><span class="btn_glitch">0</span></span></button>
+      <button class="empty" id="empty"></button>
+      <button class="operator" id="="><span class="btn_content"><span class="btn_glitch">=</span></span></button>
+   </div>
+ </div>
+
+ </div>
+
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".container"), {
+		max: 15,
+		speed: 400,
+    glare: false,
+    "max glare": 0.2,
+	});
+</script>
+ <script src="first.js"></script>
+
+
+</body>
+</html>
