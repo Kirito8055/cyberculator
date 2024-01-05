@@ -1,10 +1,3 @@
-/**
- * @Date:   2021-10-13T11:35:08+05:30
- * @Last modified time: 2021-10-13T11:35:46+05:30
- */
-
-
-
 function getHistory(){
 	return document.getElementById("history-value").innerText;
 }
